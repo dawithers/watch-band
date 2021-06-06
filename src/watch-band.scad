@@ -5,7 +5,7 @@ overlap=0.01;//překryv částí dílku
 /* [Basic setting] */
 left_link_count = 7; // [0:1:100]
 right_link_count = 6; // [0:1:100]
-width=22; // [5:1:40]
+width=19.4; // [5:0.1:40]
 
 /* [Link dimensions] */
 height=4; // [3:0.2:10]
@@ -15,14 +15,14 @@ pin=2; // [1:0.2:20]
 
 /* [Connector dimensions] */
 axis=2; // [0.2:0.1:5]
-helper_width=1.4; // [0.1:0.1:5]
-helper=2; // [0.1:0.1:5]
+helper_width=1.6; // [0.1:0.1:5]
+helper=3.5; // [0.1:0.1:5]
 
 /* [Clip orientation] */
 turned_clip = 0; // [0:No, 1:Yes]
 
 /* [Printing limits] */
-distance=0.2; // [0.0:0.05:2]
+distance=0.3; // [0.0:0.05:2]
 
 /* [Parts to render] */
 right_band=1; // [0:No, 1:Yes]
